@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <defs>
+    <linearGradient id="teardropGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9dff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100" height="120" fill="#1e0b36"/>
+  
+  <!-- Teardrop shape -->
+  <path d="M50 10 Q70 30 60 60 Q50 90 40 60 Q30 30 50 10 Z" 
+        fill="none" 
+        stroke="url(#teardropGradient)" 
+        stroke-width="2" 
+        filter="url(#glow)"/>
+  
+  <!-- Simplified internal patterns -->
+  <!-- Top section -->
+  <g fill="#ff00ff">
+    <line x1="40" y1="32" x2="60" y2="32" stroke="#ff00ff" stroke-width="1.5"/>
+    <circle cx="45" cy="32" r="1.5" fill="#ff00ff"/>
+    <circle cx="50" cy="32" r="1.5" fill="#ff00ff"/>
+    <circle cx="55" cy="32" r="1.5" fill="#ff00ff"/>
+  </g>
+  
+  <!-- Middle section -->
+  <g fill="#9dff00">
+    <circle cx="50" cy="45" r="4" fill="none" stroke="#9dff00" stroke-width="1.5"/>
+    <circle cx="50" cy="45" r="2" fill="#9dff00"/>
+    <circle cx="50" cy="35" r="1.5" fill="#9dff00"/>
+    <circle cx="50" cy="55" r="1.5" fill="#9dff00"/>
+    <circle cx="40" cy="45" r="1.5" fill="#9dff00"/>
+    <circle cx="60" cy="45" r="1.5" fill="#9dff00"/>
+  </g>
+  
+  <!-- Bottom section -->
+  <g fill="#00d4ff">
+    <rect x="35" y="70" width="4" height="4" fill="#00d4ff" rx="0.5"/>
+    <rect x="41" y="70" width="4" height="4" fill="#4a1d96" rx="0.5"/>
+    <rect x="47" y="70" width="4" height="4" fill="#00d4ff" rx="0.5"/>
+    <rect x="53" y="70" width="4" height="4" fill="#4a1d96" rx="0.5"/>
+    <rect x="59" y="70" width="4" height="4" fill="#00d4ff" rx="0.5"/>
+    <rect x="65" y="70" width="4" height="4" fill="#4a1d96" rx="0.5"/>
+  </g>
+</svg>
+
+
