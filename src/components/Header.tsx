@@ -37,11 +37,11 @@ const Header: React.FC = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <button className="btn-primary">
               Únete a la Comunidad
             </button>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -72,9 +72,9 @@ const Header: React.FC = () => {
               <a href="#inicio" className="block px-3 py-2 text-gray-700 hover:text-purple-600">
                 Inicio
               </a>
-              <a href="#comunidad" className="block px-3 py-2 text-gray-700 hover:text-purple-600">
+              {/* <a href="#comunidad" className="block px-3 py-2 text-gray-700 hover:text-purple-600">
                 Comunidad
-              </a>
+              </a> */}
               <a href="#eventos" className="block px-3 py-2 text-gray-700 hover:text-purple-600">
                 Eventos
               </a>

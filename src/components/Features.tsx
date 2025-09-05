@@ -29,33 +29,33 @@ const Features: React.FC = () => {
       title: "Mentoría y Colaboración",
       description: "Conecta con desarrolladores experimentados para recibir mentoría y colaborar en proyectos open source."
     },
-    {
-      icon: (
-        <svg className="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      title: "Certificaciones",
-      description: "Obtén certificaciones reconocidas en Elixir y Phoenix Framework para validar tus habilidades."
-    },
-    {
-      icon: (
-        <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-        </svg>
-      ),
-      title: "Oportunidades Laborales",
-      description: "Descubre oportunidades de trabajo en empresas que utilizan Elixir en México y el extranjero."
-    },
-    {
-      icon: (
-        <svg className="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-        </svg>
-      ),
-      title: "Foros y Discusiones",
-      description: "Participa en discusiones técnicas, resuelve dudas y comparte tu conocimiento con la comunidad."
-    }
+    // {
+    //   icon: (
+    //     <svg className="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+    //     </svg>
+    //   ),
+    //   title: "Certificaciones",
+    //   description: "Obtén certificaciones reconocidas en Elixir y Phoenix Framework para validar tus habilidades."
+    // },
+    // {
+    //   icon: (
+    //     <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+    //     </svg>
+    //   ),
+    //   title: "Oportunidades Laborales",
+    //   description: "Descubre oportunidades de trabajo en empresas que utilizan Elixir en México y el extranjero."
+    // },
+    // {
+    //   icon: (
+    //     <svg className="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+    //     </svg>
+    //   ),
+    //   title: "Foros y Discusiones",
+    //   description: "Participa en discusiones técnicas, resuelve dudas y comparte tu conocimiento con la comunidad."
+    // }
   ]
 
   return (
@@ -95,11 +95,11 @@ const Features: React.FC = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <button className="btn-primary text-lg px-8 py-4">
             Explorar Todos los Recursos
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
