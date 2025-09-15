@@ -1,9 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Se ejecuta cuando hay push a ramas de desarrollo
+  # Se ejecuta cuando hay push a la rama main
   push:
-    branches: [ develop, fix/github-pages-deployment ]
+    branches: [ main ]
 
   # Permite ejecutar manualmente desde la interfaz de GitHub
   workflow_dispatch:
