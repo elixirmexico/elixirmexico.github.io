@@ -9,7 +9,9 @@
       "Bash(mix phx.server:*)",
       "Bash(curl:*)",
       "WebFetch(domain:hex.pm)",
-      "WebFetch(domain:hexdocs.pm)"
+      "WebFetch(domain:hexdocs.pm)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": [],
