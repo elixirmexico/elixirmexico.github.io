@@ -11,7 +11,8 @@
       "WebFetch(domain:hex.pm)",
       "WebFetch(domain:hexdocs.pm)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": [],
