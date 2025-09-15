@@ -41,14 +41,18 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          # Crear directorio temporal para los archivos del build
+          mkdir -p /tmp/build_files
+          cp -r dist/* /tmp/build_files/
+
           # Cambiar a main branch
           git checkout main || git checkout -b main
 
           # Limpiar contenido actual (excepto .git)
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
 
-          # Copiar archivos del build
-          cp -r dist/* .
+          # Copiar archivos del build desde el directorio temporal
+          cp -r /tmp/build_files/* .
 
           # Agregar y hacer commit
           git add .
