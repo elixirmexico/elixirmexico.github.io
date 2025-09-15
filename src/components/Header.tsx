@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center space-x-3">
-              <img src="/logo.svg" alt="Elixir México Logo" className="w-12 h-12" />
+              <img src="./logo.svg" alt="Elixir México Logo" className="w-12 h-12" />
               <h1 className="text-2xl font-bold text-purple-600">
                 Elixir México
               </h1>
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
               {/* Logo en menú móvil */}
               <div className="flex justify-center py-4 border-b border-gray-200 mb-4">
-                <img src="/logo.svg" alt="Elixir México Logo" className="w-16 h-16" />
+                <img src="./logo.svg" alt="Elixir México Logo" className="w-16 h-16" />
               </div>
               
               <a href="#inicio" className="block px-3 py-2 text-gray-700 hover:text-purple-600">

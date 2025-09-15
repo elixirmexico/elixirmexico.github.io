@@ -64,7 +64,7 @@ const Features: React.FC = () => {
         <div className="text-center mb-16">
           {/* Logo pequeño */}
           <div className="flex justify-center mb-6">
-            <img src="/logo.svg" alt="Elixir México Logo" className="w-16 h-16" />
+            <img src="./logo.svg" alt="Elixir México Logo" className="w-16 h-16" />
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img src="/logo.svg" alt="Elixir México Logo" className="w-10 h-10" />
+              <img src="./logo.svg" alt="Elixir México Logo" className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-purple-400">
                 Elixir México
               </h3>

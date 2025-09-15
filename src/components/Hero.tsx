@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
         <div className="text-center">
           {/* Logo prominente */}
           <div className="flex justify-center mb-8">
-            <img src="/logo.svg" alt="Elixir México Logo" className="w-32 h-32 md:w-40 md:h-40" />
+            <img src="./logo.svg" alt="Elixir México Logo" className="w-32 h-32 md:w-40 md:h-40" />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
