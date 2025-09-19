@@ -33,7 +33,7 @@ const Community: React.FC = () => {
   ]
 
   return (
-    <section id="comunidad" className="py-20 bg-gradient-to-br from-purple-600 to-indigo-600">
+    <section id="comunidad" className="py-20 bg-gradient-to-br from-purple-600 to-indigo-600 dark:from-purple-700 dark:to-indigo-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Stats */}
         <div className="text-center mb-16">

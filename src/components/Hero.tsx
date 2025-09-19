@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="py-24 lg:py-32">
+    <section id="inicio" className="py-24 lg:py-32 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Logo prominente */}
@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
             <img src="./logo.svg" alt="Elixir México Logo" className="w-32 h-32 md:w-40 md:h-40" />
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
             Únete a la{' '}
             <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
               Comunidad Elixir
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             en México
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             Aprende, comparte y construye el futuro de la programación funcional 
             junto con desarrolladores apasionados por Elixir en México.
           </p>
